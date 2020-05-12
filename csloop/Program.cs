@@ -40,6 +40,9 @@ namespace csloop
                     continue;
                 }Console.WriteLine(i);
             }
+            String input = "Potato Tomato";
+            Console.WriteLine(input.ToUpper());
+            Console.WriteLine(input.ToLower());
         }
     }
 }
