@@ -50,6 +50,8 @@ namespace csloop
             {
                 Console.WriteLine(item);
             }
+
+            Console.WriteLine(input2.Trim());
         }
     }
 }
