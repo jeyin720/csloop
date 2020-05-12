@@ -43,6 +43,13 @@ namespace csloop
             String input = "Potato Tomato";
             Console.WriteLine(input.ToUpper());
             Console.WriteLine(input.ToLower());
+
+            String input2 = "감자 고구마 토마토";
+            String[] inputs=input2.Split(new char[] { ' ' });
+            foreach(var item in inputs)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
