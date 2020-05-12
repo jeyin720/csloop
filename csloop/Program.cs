@@ -52,6 +52,8 @@ namespace csloop
             }
 
             Console.WriteLine(input2.Trim());
+
+            Console.WriteLine(string.Join(",", inputs));
         }
     }
 }
